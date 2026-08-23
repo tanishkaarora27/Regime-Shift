@@ -21,13 +21,13 @@ Most retail ML backtests fail in the same few places. This one is structured aro
 
 ## Quick start
 
-**Colab (zero setup):** upload `RegimeShift.ipynb` to Colab and run all cells.
+**Colab (zero setup):** upload `RegimeShift_Notebook.ipynb` to Colab and run all cells.
 
 **Local:**
 
 ```bash
 pip install -r requirements.txt
-jupyter lab RegimeShift.ipynb
+jupyter lab RegimeShift_Notebook.ipynb
 ```
 
 Data downloads automatically via yfinance (SPY, TLT, GLD, ^VIX, 2007–today). Set `USE_SYNTHETIC = True` in the config cell to run the pipeline on simulated 2-state Markov regime data instead — useful for verifying the machinery without a network connection.
